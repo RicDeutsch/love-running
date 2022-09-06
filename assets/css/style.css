@@ -31,10 +31,13 @@ h1, h2 {
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
+    float: right;
 }
 
+/* floating the ul right and the li left negates the need to re-order html */
+
 #menu li {
-    float: right;
+    float: left;
     list-style-type: none;
     margin-right: 30px;
 }
