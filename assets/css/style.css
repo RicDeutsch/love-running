@@ -270,18 +270,19 @@ footer {
         margin: 0;
     }
 
-    #left-about, #right-about{
-        width: 100%;
-        float:left;
-        padding: 0;
-    }
-
-    #center-about {
+    #left-about, #right-about, #center-about {
         clear: both; 
         width: 100%;
         float:left;
         padding: 0;
     } 
+
+    #times > div {
+        width: 100%;
+        clear:both;
+        height:150px;
+        padding:0;
+    }
 
     hr {
         display: none;
